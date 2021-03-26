@@ -4,4 +4,6 @@
 <ul>
 <li><a href="Midterm/index.html" target="_blank">Mid-Term Project</a></li>
 
+<li><a href="Lab5index.html" target="_blank">Lab 5</a></li>
+
 </ul>
