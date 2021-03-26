@@ -5,7 +5,7 @@ img{
 }
 
 body{
-    background-color: crimson;
+    background-color: black;
 }
 
 /* Mobile Styles */
@@ -15,7 +15,7 @@ body{
 }
 
 header{
-    background-color: greenyellow;
+    background-color:darkblue;
     padding: 20px;
 }
 
@@ -25,7 +25,7 @@ nav{
 
 nav ul{
     list-style-type:none;
-    padding: 8;
+    padding: 8px;
 }
 
 nav li{
@@ -34,8 +34,8 @@ nav li{
 
 nav li a{
     display: block;
-    background-color: greenyellow;
-    color: orangered;
+    background-color:whitesmoke;
+    color:darkblue;
     font-size: 1.5em;
     text-decoration: none;
     margin: 5px 0;
@@ -45,7 +45,50 @@ nav li a{
 }
 
 nav li a:hover{
-    background-color: orangered;
+    background-color: whitesmoke;
     color: greenyellow;
     text-shadow: none;
+}
+
+section, aside{
+    padding: 20px;
+}
+
+section{
+    background-color: whitesmoke
+}
+
+section h1{
+    color: darkblue;
+    text-shadow: 1px 1px 1px black;
+    text-align: center;
+    font-size: 1.6em;
+}
+
+p{
+    font-size: 19px;
+}
+
+aside{
+    background-color: darkblue;
+    margin-top: 10px;
+}
+
+aside h2, aside h3{
+    color: whitesmoke;
+    text-shadow: 1px 1px 1px black;
+    text-align: center;
+    font-size: 1.3em;
+}
+
+aside hr{
+    border-color: black;
+}
+
+footer{
+    background-color:black ;
+    padding: 40px 0;
+    text-align: center;
+    color:whitesmoke;
+    text-shadow: 2px 2px 2px black;
 }
