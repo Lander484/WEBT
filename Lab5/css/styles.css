@@ -66,7 +66,7 @@ section h1{
 }
 
 p{
-    font-size: 19px;
+    font-size: 23px;
 }
 
 aside{
@@ -121,7 +121,7 @@ footer{
     }
 
     aside h2, aside h3{
-        font-size: 1.7em;
+        font-size: 2em;
     }
 } 
 
