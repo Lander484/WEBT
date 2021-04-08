@@ -8,16 +8,71 @@
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/styles.css">
 </head>
-<body>
-    <div id ="container">
-        <header></header>
-        <nav></nav>
+<body id="top">
+<div id ="container">
+    <header>
+        <h1>Audio, Video and Tables</h1>
+    </header>
+        <nav>
+            <ul>
+                <li><a href="#audio">Audio</a></li>
+                <li><a href="#video">Video</a></li>
+                <li><a href="#tables">Tables</a></li>
+            </ul>
+        </nav>
         <main>
             <section id="audio"></section>
-            <section id="video"></section>
-            <section id="tables"></section>
-        </main>
-        <footer></footer>
-    </div>
+            <h2>Random Audio</h2>
+            <h3>Audio File 1</h3>
+            <audio src="audio/audio1.mp3" controls></audio>
+
+            <h3>Audio File 2</h3>
+            <audio src="audio/audio2.mp3" controls></audio> 
+
+            <a href="#top">Back to the Top</a>
+        </section>
+        <section id="video">
+            <h2>March Madness Videos</h2>
+            <h3>Jimmer Fredette</h3>
+            <video src="videos/JimmerFredette.mp4" controls></video>
+
+            <h3>Adam Morrison</h3>
+            <video src="videos/AdamMorrison.mp4" controls></video>
+            <a href="#top">Back to the Top</a>
+         </section>
+        <section id="tables">
+            <table>
+                <tr>
+                    <th>Band</th>
+                    <th>Song</th>
+                    <th>Album</th>
+                </tr>
+                <tr>
+                    <td>Van Halen</td>
+                    <td>Dreams</td>
+                    <td>5150</td>
+                </tr>
+
+                <tr>
+                    <td>Dokken</td>
+                    <td>In My Dreams</td>
+                    <td>Under Lock and Key</td>
+                </tr>
+
+                <tr>
+                    <td>Mr. Big</td>
+                    <td>To Be With You</td>
+                    <td>Lean Into It</td>
+                </tr>
+            </table>
+            <a href="#top">Back to the Top</a>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2021 Lab 7</p>
+        <p>Audio,Video and Tables</p>
+    </footer>
+</div>
+<script src="js/zenscroll-min.js"></script>
 </body>
 </html>
