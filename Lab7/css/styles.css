@@ -32,8 +32,8 @@ header{
 
 header h1{
     color: orangered;
-    line-height: 250px;
-    text-align: center;
+    line-height: 100px;
+    text-align:center;
     text-shadow: 2px 2px 2px black;
 }
 
@@ -114,6 +114,13 @@ footer{
         height: 325px;
     }
 
+    header h1{
+        color: orangered;
+        line-height: 250px;
+        text-align:center;
+        text-shadow: 2px 2px 2px black;
+    }
+
     nav{
         background-color: black;
         padding: 5px 0;
@@ -153,6 +160,13 @@ footer{
     
     header{
         height: 450px;
+    }
+
+    header h1{
+        color: orangered;
+        line-height: 250px;
+        text-align:center;
+        text-shadow: 2px 2px 2px black;
     }
 
     nav li a{
