@@ -1,0 +1,42 @@
+#container{
+    margin: 5px;
+}
+
+header{
+    background-color: deepskyblue;
+    text-align: center;
+    padding: 40px 0;
+}
+
+header h1{
+    color: white;
+}
+
+nav{
+    background-color: deepskyblue;
+}
+
+section{
+    background-color: deepskyblue;
+    padding: 10px;
+    margin: 5px;
+}
+
+section h2{
+    text-align: center;
+    color:white
+}
+
+footer{
+    background: deepskyblue;
+    color: white;
+    padding: 40px 0;
+    text-align: center;
+}
+
+#menu{
+    display: none;
+}
+
+
+
